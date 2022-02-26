@@ -1,10 +1,18 @@
 # Rails_ToDo
-#### エディタ選定候補
-|  エディタ  |  コスト  |  備考 |
-| ---- | ---- | ---- |
-| Eclipse | 無料 | 有名どころ。なんか苦手 |
-| Visual Studio Code | 無料 | 軽い |
-| Atom | 無料 | 名前が好き |
-| Ruby Mine | 有料 | 財布に余裕が出来たら使ってはみたい |
-#### 採用エディタ
-VSCode採用
+Rails学習用のToDoアプリです。
+
+![Rails_Todo](images/rails_todo.png)
+
+# 起動方法（How to start）
+
+1. ターミナル等で、下記コマンドを入力しマイグレートを実行する。
+```
+rails db:migrate
+```
+2. ターミナル等で、下記コマンドを入力し起動する。
+```
+rails s
+```
+3. http://localhost:3000 にアクセス
+# 停止方法（How to stop）
+1. ターミナル等で、Ctrl + C key
