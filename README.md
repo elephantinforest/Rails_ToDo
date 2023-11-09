@@ -1,19 +1,7 @@
-# Rails_ToDo
-Rails学習用のToDoアプリです。
+# Ruby on Rails Tutorial
 
-![Rails_Todo](images/rails_todo.png)
+## "hello, world!"
 
-# 起動方法（How to start）
-
-1. ターミナル等で、下記コマンドを入力しマイグレートを実行する。
-```
-rails db:migrate
-```
-2. ターミナル等で、下記コマンドを入力し起動する。
-```
-rails s
-```
-3. http://localhost:3000 にアクセス
-# 停止方法（How to stop）
-1. ターミナル等で、Ctrl + C key
-# Rails_Tutorial
+This is the first application for the
+[*Ruby on Rails Tutorial*](https://railstutorial.jp/)
+by [Michael Hartl](https://www.michaelhartl.com/). Hello, world!
