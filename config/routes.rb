@@ -3,8 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # resources :ControllerNameでRailsで定義されている7アクションのルーティングを設定
-  root "tasks#index"
 
-  resources :tasks
+   root "application#goodbye"
   # root "articles#index"
 end

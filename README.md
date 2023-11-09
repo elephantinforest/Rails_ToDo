@@ -16,3 +16,4 @@ rails s
 3. http://localhost:3000 にアクセス
 # 停止方法（How to stop）
 1. ターミナル等で、Ctrl + C key
+# Rails_Tutorial
