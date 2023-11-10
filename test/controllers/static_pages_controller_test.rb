@@ -36,4 +36,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "title", "Contact | #{@base_title}"
   end
+    test "should get montact" do
+    get static_pages_montact_url
+    assert_response :success
+    assert_select "title", "Montact | #{@base_title}"
+  end
 end
